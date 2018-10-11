@@ -1,7 +1,7 @@
 package pl.coderslab.controller;
 
-import pl.coderslab.utils.DAO.CustomerDAO;
-import pl.coderslab.utils.models.Customer;
+import pl.coderslab.DAO.CustomerDAO;
+import pl.coderslab.models.Customer;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
