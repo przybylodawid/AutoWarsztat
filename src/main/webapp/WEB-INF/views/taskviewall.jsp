@@ -40,11 +40,11 @@
         <td>${task.check_in_date}</td>
         <td>${task.start_date}</td>
         <td>${task.end_date}</td>
-        <td><a href="/employeeviewone?employee_id=${task.employee_id}">${task.employee_id}</a></td>
+        <td><a href="/employeeviewone?id=${task.employee_id}">${task.employee_id}</a></td>
         <td>${task.description}</td>
         <td>${task.result}</td>
         <td><a href="/taskbystatus?status_id=${task.status_id}">${task.status_id}</a></td>
-        <td><a href="/carviewone?car_id=${task.car_id}">${task.car_id}</a></td>
+        <td><a href="/carviewone?id=${task.car_id}">${task.car_id}</a></td>
         <td>${task.total_price}</td>
         <td>${task.part_cost}</td>
         <td>${task.hours}</td>
