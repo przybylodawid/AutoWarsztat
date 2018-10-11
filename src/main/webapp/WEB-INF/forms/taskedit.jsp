@@ -37,8 +37,8 @@
             <td><input type="date" name="start_date" value="${task.start_date}"></td>
         </tr>
         <tr>
-            <td>Koniec naprawy</td>
-            <td><input type="date" name="end_date" value="${task.end_date}"></td>
+            <td> Data przewidywana <br>/końca naprawy</td>
+            <td><input type="date" name="end_date" value="${task.end_date}" required></td>
         </tr>
         <tr>
             <td>ID Pracownika</td>
