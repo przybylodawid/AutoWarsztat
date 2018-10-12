@@ -13,26 +13,17 @@
     <jsp:include page="/WEB-INF/fragments/header.jsp"/>
 </head>
 <body>
-
-<br><br>
-<a href="/employeeviewall">PRACOWNICY</a>
-<a href="/carviewall">SAMOCHOY</a>
-<a href="/taskviewall">ZLECENIA</a>
-<a href="/customerviewall">KLIENCI</a>
-<br>
-<a href="/employeeaddnew"> (+)Pracownik</a>
-<a href="/caraddnew">(+)Samochod</a>
-<a href="/taskaddnew">(+)Zlecenie</a>
-<a href="/customeraddnew">(+)Klient</a><br><br>
+<jsp:include page="/WEB-INF/fragments/menu.jsp"/>
 
 
-<table>
+<table class="table table-striped table-bordered table-hover" id="carsviewall">
 
     <tr>
     <th>ID klienta</th>
     <th>Imię klienta</th>
     <th>Nazwisko klienta</th>
     <th>Data urodzenia klienta</th>
+        <th>Akcja</th>
     </tr>
 
 <c:forEach var="customer" items="${customers}">

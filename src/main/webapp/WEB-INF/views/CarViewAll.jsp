@@ -16,8 +16,9 @@
 <jsp:include page="/WEB-INF/fragments/header.jsp"/>
 <jsp:include page="/WEB-INF/fragments/menu.jsp"/>
 
+
 <br>
-<a href="caraddnew">Wprowadz dane nowego samochodu</a>
+
 
 <br><br>
 
@@ -43,7 +44,7 @@
             <td>${car.year}</td>
             <td>${car.plate}</td>
             <td>${car.next_check}</td>
-            <td>${car.customer_id}</td>
+            <td><a href="/customerviewone?id=${car.customer_id}">${car.customer_id}</a></td>
             <td><a href="/carviewone?id=${car.id}">Szczegóły...</a> </td>
         </tr>
     </c:forEach>

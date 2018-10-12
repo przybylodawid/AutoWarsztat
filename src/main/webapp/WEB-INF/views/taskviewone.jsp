@@ -28,7 +28,7 @@
 <body>
 <jsp:include page="/WEB-INF/fragments/menu.jsp"/>
 
-<table>
+<table class="table table-striped table-bordered table-hover" id="carsviewall">
     <thead>
     <tr>
 
