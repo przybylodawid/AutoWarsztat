@@ -16,16 +16,7 @@
 <html>
 <head>
     <title>Employees</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-            padding: 2px;
-        }
-        th, td {
-            padding: 10px;
-        }
-    </style>
-    <%@include file="/WEB-INF/fragments/header.jsp" %>
+       <%@include file="/WEB-INF/fragments/header.jsp" %>
 </head>
 <body>
 
@@ -35,7 +26,7 @@
 
 <br><br>
 
-<table>
+<table class="table table-striped table-bordered table-hover" id="carsviewall">
     <tr>
         <th>id</th>
         <th>Name</th>

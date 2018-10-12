@@ -6,34 +6,53 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
     <title>Car Add New</title>
 </head>
 <body>
 <jsp:include page="/WEB-INF/fragments/header.jsp"/>
+<%@include file="/WEB-INF/fragments/menu.jsp"%>
+
+
 
 <form action="caraddnew" method="post">
-    <label>
-        Model: <input type="text" name="model" required/><br>
-    </label>
-    <label>
-        Marka: <input type="text" name="brand" required/><br>
-    </label>
-    <label>
-        Rocznik: <input type="number" name="year" required/><br>
-    </label>
-    <label>
-        Nr rej.: <input type="text" name="plate" required/><br>
-    </label>
-    <label>
-        Nast. przeglad: <input type="date" name="next_check" required/><br>
-    </label>
-    <label>
-        ID klienta: <input type="number" name="customer_id" required/><br>
-    </label>
-    <input type="submit" value="Wyślij" /><br>
 
+    <table>
+        <tr>
+            <td>Model:</td>
+            <td><input type="text" name="model" required/></td><
+        </tr>
+
+        <tr>
+            <td>Marka:</td>
+            <td> <input type="text" name="brand" required/></td>
+        </tr>
+
+        <tr>
+            <td>Rocznik:</td>
+            <td><input type="number" name="year" required/></td>
+        </tr>
+
+        <tr>
+            <td>Nr rej.:</td>
+            <td><input type="text" name="plate" required/></td>
+        </tr>
+
+        <tr>
+            <td>Nast. przegląd:</td>
+            <td><input type="date" name="next_check" required/></td>
+        </tr>
+
+        <tr>
+            <td>ID klienta:</td>
+            <td><input type="number" name="customer_id" required/></td>
+        </tr>
+
+
+</table>
+    <input type="submit" value="Wyślij" /><br>
 </form>
 
 

@@ -13,20 +13,12 @@
     <jsp:include page="/WEB-INF/fragments/header.jsp"/>
 </head>
 <body>
+<jsp:include page="/WEB-INF/fragments/menu.jsp"/>
 
 
-<br><br>
-<a href="/employeeviewall">PRACOWNICY</a>
-<a href="/carviewall">SAMOCHOY</a>
-<a href="/taskviewall">ZLECENIA</a>
-<a href="/customerviewall">KLIENCI</a>
-<br>
-<a href="/employeeaddnew"> (+)Pracownik</a>
-<a href="/caraddnew">(+)Samochod</a>
-<a href="/taskaddnew">(+)Zlecenie</a>
-<a href="/customeraddnew">(+)Klient</a><br><br>
 
-<table>
+
+<table class="table table-striped table-bordered table-hover" id="carsviewall">
 
     <th></th>
     <th>Dane klienta</th>

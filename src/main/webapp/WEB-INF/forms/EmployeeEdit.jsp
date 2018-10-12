@@ -29,7 +29,7 @@
 
 <form action="employeeedit" method="post">
     <label>
-        id: <input type="number" name="id" value="<%=currId%>" required/>
+        id: <input type="number" name="id" value="<%=currId%>" readonly/>
     </label> <br><br>
     <label>
         Name: <input type="text" name="name" value="<%=currName%>" />

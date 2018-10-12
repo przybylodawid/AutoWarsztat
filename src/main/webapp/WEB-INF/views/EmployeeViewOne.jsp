@@ -10,16 +10,7 @@
 <html>
 <head>
     <title>Employee</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-            padding: 2px;
-        }
-        th, td {
-            padding: 10px;
-        }
-    </style>
-    <%@include file="/WEB-INF/fragments/header.jsp" %>
+        <%@include file="/WEB-INF/fragments/header.jsp" %>
 </head>
 
 <body>
@@ -28,7 +19,7 @@
 
 
 <br><br>
-<table>
+<table class="table table-striped table-bordered table-hover" id="carsviewall">
     <tr>
         <th>id</th>
         <th>Name</th>
@@ -37,7 +28,7 @@
         <th>Phone</th>
         <th>Note</th>
         <th>PP hour</th>
-        <th>Action</th>
+        <th colspan="3">Action</th>
     </tr>
     <%
         Employee employeeOne =  (Employee) request.getAttribute("employee");
@@ -63,6 +54,9 @@
         </td>
         <td>
             <a href="/employeeedit?id=<%=currId%>">edit</a>
+        </td>
+        <td>
+            <a href="/taskbyemployee?employee_id=<%=currId%>">Pokaż wszystkie Zlecenia</a>
         </td>
 
     </tr>
