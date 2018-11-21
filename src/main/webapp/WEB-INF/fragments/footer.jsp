@@ -7,3 +7,14 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+
+<div class="col-lg-2">
+    <p>Auto Warsztat</p>
+    <p>Warsztaty - tydzien zdalny</p>
+    <p>Autorzy: Janusz, Batek, Tomek, Dawid</p>
+
+
+</div>
+<div class="col-lg-2">
+    <img src="https://prowly-uploads.s3.amazonaws.com/uploads/4323/assets/49503/CL_IT_logo_01_2018.png" width="200">
+</div>
