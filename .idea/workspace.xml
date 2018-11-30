@@ -8,9 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c2a5af6-bbb3-40ce-813b-ff3a2650a1ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragments/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragments/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragments/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragments/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragments/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/fragments/menu.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,16 +21,17 @@
     <session id="-532234507">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="5" />
-          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -89,8 +87,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/fragments/menu.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="867">
-                  <caret line="111" column="102" selection-start-line="111" selection-start-column="102" selection-end-line="111" selection-end-column="102" />
+                <state relative-caret-position="22">
+                  <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -234,10 +232,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1615" />
-    <option name="y" value="147" />
-    <option name="width" value="1221" />
-    <option name="height" value="700" />
+    <option name="x" value="61" />
+    <option name="y" value="25" />
+    <option name="width" value="1305" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -245,6 +243,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,7 +311,6 @@
       </pane>
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -463,6 +461,9 @@
       <workItem from="1539587361457" duration="92000" />
       <workItem from="1540070378007" duration="5829000" />
       <workItem from="1540451086265" duration="33000" />
+      <workItem from="1542798659467" duration="769000" />
+      <workItem from="1542821155480" duration="31000" />
+      <workItem from="1543585399207" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="Działą metody bazdy danych poprawione pakaze">
       <created>1539263954232</created>
@@ -482,7 +483,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80236000" />
+    <option name="totallyTimeSpent" value="81283000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,9 +495,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1341" y="25" width="1859" height="1175" extended-state="6" />
+    <frame x="61" y="25" width="3379" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7143969" visible="true" weight="0.18808605" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7143969" visible="true" weight="0.07320732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -506,16 +508,16 @@
       <window_info id="Web" order="7" sideWeight="0.2856031" side_tool="true" weight="0.11221122" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23501946" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11206226" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32789558" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32529184" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291829" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32463294" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3284553" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32626426" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3291829" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32789558" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
