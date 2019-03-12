@@ -13,3 +13,4 @@ Projekt realizowany w grupie przy wykorzystaniu SCRUM.
 Użyte technologie: Java, Java Servlety, jsp, bootstrap
 
 ![](images/demo.jpg)
+![](images/1a.JPG)
